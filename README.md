@@ -229,7 +229,7 @@
   <a href="https://github.com/abdulboyprogramming-arch">
     <img src="https://img.shields.io/badge/GitHub-100000?style=for-the-badge&logo=github&logoColor=white&labelColor=181717" />
   </a>
-  <a href="mailto:your-email@example.com">
+  <a href="mailto: abdulboyprogramming@gmail.com">
     <img src="https://img.shields.io/badge/Email-D14836?style=for-the-badge&logo=gmail&logoColor=white&labelColor=EA4335" />
   </a>
   <a href="https://twitter.com/yourhandle">
