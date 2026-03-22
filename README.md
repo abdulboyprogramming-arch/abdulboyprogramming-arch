@@ -224,10 +224,7 @@
   <a href="https://github.com/abdulboyprogramming-arch">
     <img src="https://img.shields.io/badge/GITHUB-181717?style=for-the-badge&logo=github&logoColor=white" />
   </a>
-  <a href="https://twitter.com/abdulboy_dev">
-    <img src="https://img.shields.io/badge/TWITTER-1DA1F2?style=for-the-badge&logo=twitter&logoColor=white" />
-  </a>
-  <a href="mailto:abdulrahman.adeeyo@example.com">
+  <a href="mailto: abdulboyprogramming@gmail.com">
     <img src="https://img.shields.io/badge/EMAIL-D14836?style=for-the-badge&logo=gmail&logoColor=white" />
   </a>
 </div>
@@ -243,7 +240,7 @@
 <br/>
 
 <div align="center">
-  <img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&weight=500&size=18&duration=2000&pause=500&color=2E9AFE&center=true&width=600&lines=📧+abdulrahman.adeeyo@example.com;💬+DM+me+on+LinkedIn+to+chat!;🚀+Let's+build+something+amazing+together!" />
+  <img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&weight=500&size=18&duration=2000&pause=500&color=2E9AFE&center=true&width=600&lines=📧+abdulboyprogramming@gmail.com;💬+DM+me+on+LinkedIn+to+chat!;🚀+Let's+build+something+amazing+together!" />
 </div>
 
 ---
