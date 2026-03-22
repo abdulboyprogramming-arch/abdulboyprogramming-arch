@@ -39,10 +39,31 @@ Git • GitHub • VS Code
 ## 🚀 Key Projects
 
 ### Luminix – Web-Based Operating System
-A large experimental project exploring how a desktop-like operating system environment can be built entirely in the browser using modern web technologies.
+![Status](https://img.shields.io/badge/status-active%20development-blue)
+
+A browser-based desktop environment simulation exploring modern web capabilities.
+
+**Currently Working On:**
+- Application Launcher System
+- Window Management Core
+
+**Key Features Implemented:**
+- ✅ Basic File System Structure
+- ✅ Window Dragging & Resizing
+
+*More features planned based on learning journey*
+
+---
 
 ### Full-Stack Experimental Applications
+![Status](https://img.shields.io/badge/status-active-yellowgreen)
+
 A series of full-stack systems designed to practice backend APIs, authentication systems, database integrations, and modern UI interactions.
+
+**Recent Updates:**
+- ✅ JWT Authentication Implemented
+- 🔄 Database Optimization (Ongoing)
+- ⏳ Docker Containerization
 
 ---
 
