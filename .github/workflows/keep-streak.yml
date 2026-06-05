@@ -1,0 +1,119 @@
+# ============================================================
+# GitHub Actions Workflow: Keep Contribution Streak Alive
+# ============================================================
+# Purpose: Automatically make a daily commit to ensure your
+#          GitHub contribution graph stays green.
+# Runs on: GitHub's cloud servers (no local machine needed)
+# Trigger: Daily at a fixed time + manual trigger option
+# ============================================================
+
+name: "Keep Streak Alive"
+
+# ------------------------------------------------------------
+# TRIGGERS - When this workflow runs
+# ------------------------------------------------------------
+on:
+  # 1) Scheduled trigger: runs automatically at specified UTC time
+  schedule:
+    # Cron syntax: minute hour day month weekday
+    # "0 1 * * *" = At 01:00 AM UTC every day
+    # Adjust as needed (e.g., "30 14 * * *" = 14:30 UTC)
+    - cron: "0 1 * * *"
+
+  # 2) Manual trigger: allows you to run it from GitHub UI
+  #    Useful for testing or if a scheduled run missed
+  workflow_dispatch:
+
+# ------------------------------------------------------------
+# PERMISSIONS - What this workflow is allowed to do
+# ------------------------------------------------------------
+# 'contents: write' is CRITICAL – it lets the script push commits
+# Without this, the git push will fail with permission denied.
+permissions:
+  contents: write
+
+# ------------------------------------------------------------
+# JOBS - The actual work to be done
+# ------------------------------------------------------------
+jobs:
+  keep-streak:
+    # Runner: Ubuntu Linux (free, fast, pre-installed with git)
+    runs-on: ubuntu-latest
+
+    # --------------------------------------------------------
+    # STEPS - Individual tasks inside the runner
+    # --------------------------------------------------------
+    steps:
+      # Step 1: Checkout (download) your repository code
+      # This makes all files from the repo available inside the runner
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      # Step 2: Modify a file (create the daily change)
+      # This could be appending a timestamp, updating a log, etc.
+      - name: Make a change to trigger a commit
+        run: |
+          # Create a file 'streak-log.txt' if it doesn't exist
+          # Then append current date and time in UTC
+          echo "$(date -u) - Automated streak commit" >> streak-log.txt
+
+      # Step 3: Configure git user identity
+      # The commit will be attributed to the GitHub Actions bot
+      # You can change the email to your own if you want the commit
+      # to show under your personal profile (must match your GitHub email)
+      - name: Configure git
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+
+      # Step 4: Stage the changed file(s)
+      - name: Stage changes
+        run: git add -A
+
+      # Step 5: Commit the change
+      # If there is no change (e.g., file already up to date), skip
+      # The '|| true' prevents the workflow from failing when nothing to commit
+      - name: Commit changes
+        run: |
+          git commit -m "Daily streak commit: $(date -u)" || echo "No changes to commit"
+
+      # Step 6: Push the commit back to GitHub
+      # This is the action that actually updates your repository
+      # and counts as a contribution (if repo is public or default branch)
+      - name: Push commit
+        run: git push
+
+# ============================================================
+# POST-SETUP NOTES (READ CAREFULLY)
+# ============================================================
+# 1. Repository visibility:
+#    - For commits to count on your contribution graph, the repository
+#      MUST be PUBLIC. (Private repos only count commits on the default
+#      branch for GitHub Pro users – avoid complexity, just use public)
+#
+# 2. Workflow permissions in repo settings:
+#    - Go to your repo → Settings → Actions → General
+#    - Under "Workflow permissions", select "Read and write permissions"
+#    - This is required for the 'contents: write' to work correctly.
+#
+# 3. If commits don't appear on your profile:
+#    - Check that the email in 'git config' matches an email verified
+#      on your GitHub account. The bot email is fine but to be safe,
+#      change it to your own email (e.g., "you@example.com")
+#
+# 4. Changing the schedule:
+#    - Use https://crontab.guru to generate cron expressions.
+#    - Remember: time is in UTC. Convert your local time to UTC.
+#    - Example: "30 2 * * *" = 02:30 UTC (10:30 PM EST / 1:30 PM AEST)
+#
+# 5. Manual trigger after setup:
+#    - Go to your repo on GitHub → Actions tab
+#    - Select "Keep Streak Alive" workflow → "Run workflow" button
+#    - This lets you test immediately without waiting for the schedule.
+#
+# 6. Avoiding abuse / being natural:
+#    - Don't set it to run every hour – GitHub may throttle or flag.
+#    - One commit per day is fine and common.
+#    - Consider using this as a backup while you learn automation,
+#      not as a substitute for real contributions.
+# ============================================================
