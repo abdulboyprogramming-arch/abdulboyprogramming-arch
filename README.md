@@ -1,7 +1,7 @@
-# 👋 Hi, I'm Abdulrahman Adeeyo
+# 👋 Hi, I'm Abdulrahman "Abdulboy" Adeeyo
 
 <div align="center">
-  <img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&weight=600&size=22&duration=3000&pause=800&color=2563EB&center=true&vCenter=true&width=700&lines=Software+Engineer;AI+Systems+Builder;Full-Stack+Developer;Founder+%40+Tenvrix"/>
+  <img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&weight=600&size=22&duration=3000&pause=800&color=2563EB&center=true&vCenter=true&width=700&lines=Software+Engineer;AI+Systems+Builder;Full-Stack+Developer;Founder+%40+Abdulboy+Programming+Enterprise"/>
 </div>
 
 <br/>
@@ -14,11 +14,13 @@
 
 ## 🚀 About Me
 
-Software Engineering student passionate about building intelligent, scalable systems. Currently building **Tenvrix**—a technology company focused on AI-powered solutions, SaaS platforms, and developer tools.
+Software Engineering student with **3 years of development experience** — from first line of code to building production-ready systems. Passionate about creating intelligent, scalable software that solves real problems.
 
-I believe great software is designed to evolve, not just to work.
+Currently building **Tenvrix** — a technology company focused on AI-powered solutions, SaaS platforms, and developer tools. Known as **Abdulboy** in the dev community.
 
-**Current Focus:** AI Engineering, Backend Systems, Software Architecture
+> "Great software is designed to evolve, not just to work."
+
+**Current Focus:** AI Engineering • Backend Systems • Software Architecture
 
 ---
 
@@ -39,9 +41,8 @@ I believe great software is designed to evolve, not just to work.
 
 | Project | Description | Stack |
 |---------|-------------|-------|
-| **[Tenvrix](https://github.com/abdulboyprogramming-arch/tenvrix)** | Building the next generation of intelligent software | Next.js, TypeScript, Node.js, PostgreSQL, Docker |
-| **[Luminix WBOS](https://github.com/abdulboyprogramming-arch/luminix)** | Browser-based operating system | React, TypeScript, TailwindCSS |
-| **[Crypto Tracker](https://github.com/abdulboyprogramming-arch/crypto-price-tracker)** | Real-time cryptocurrency dashboard | Next.js, TypeScript, REST APIs |
+| **[Tenvrix](https://github.com/abdulboyprogramming-arch/tenvrix)** | Next-gen intelligent software platform | Next.js, TypeScript, Node.js, PostgreSQL, Docker |
+| **[Crypto Tracker](https://github.com/abdulboyprogramming-arch/crypto-price-tracker)** | Real-time cryptocurrency dashboard | HTML, CSS, JavaScript, REST APIs |
 | **[GateLink](https://github.com/abdulboyprogramming-arch/gate-link)** | URL shortening & link management platform | Modern full-stack |
 
 ---
@@ -66,6 +67,19 @@ I believe great software is designed to evolve, not just to work.
 - ☁️ Master cloud-native development
 - 📝 Publish technical content
 - 🌍 Contribute meaningfully to open source
+
+---
+
+## 🧠 Engineering Philosophy
+
+After 3 years of building, I've learned that:
+
+- **Simplicity** beats complexity
+- **Architecture** matters more than code volume
+- **Documentation** is as important as implementation
+- **Continuous learning** is non-negotiable
+
+Every project is a chance to grow and build something that lasts.
 
 ---
 
