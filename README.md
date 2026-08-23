@@ -81,12 +81,7 @@ Currently building **Tenvrix** — a technology company focused on AI-powered so
 ## 📊 GitHub Analytics
 
 <div align="center">
-
-![GitHub Stats](https://github-readme-stats.vercel.app/api?username=abdulboyprogramming-arch&show_icons=true&theme=github_dark&hide_border=true)
-![Top Languages](https://github-readme-stats.vercel.app/api/top-langs/?username=abdulboyprogramming-arch&layout=compact&theme=github_dark&hide_border=true)
-![GitHub Streak](https://streak-stats.demolab.com?user=abdulboyprogramming-arch&theme=github-dark&hide_border=true)
-![Activity Graph](https://github-readme-activity-graph.vercel.app/graph?username=abdulboyprogramming-arch&theme=github-dark&hide_border=true)
-
+  <img src="https://github-analytics-incog.vercel.app/api?username=abdulboyprogramming-arch&theme=github_dark" alt="GitHub Analytics" />
 </div>
 
 ---
