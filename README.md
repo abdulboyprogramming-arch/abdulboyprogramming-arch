@@ -72,7 +72,7 @@ Currently building **Tenvrix** — a technology company focused on AI-powered so
 
 | Project | Description | Stack |
 |---------|-------------|-------|
-| **[Tenvrix](https://github.com/abdulboyprogramming-arch/tenvrix)** | Next-gen intelligent software platform | Next.js, TypeScript, Node.js, PostgreSQL, Docker |
+| **[Tenvrix](https://github.com/tenvrix)** | Next-gen intelligent software platform | Next.js, TypeScript, Node.js, PostgreSQL, Docker |
 | **[Crypto Tracker](https://github.com/abdulboyprogramming-arch/crypto-price-tracker)** | Real-time cryptocurrency dashboard | HTML, CSS, JavaScript, REST APIs |
 | **[GateLink](https://github.com/abdulboyprogramming-arch/gate-link)** | URL shortening & link management platform | Modern full-stack |
 
