@@ -87,6 +87,11 @@ Currently building **Tenvrix** — a technology company focused on AI-powered so
 ![GitHub Streak](https://streak-stats.demolab.com?user=abdulboyprogramming-arch&theme=github-dark&hide_border=true)
 ![Activity Graph](https://github-readme-activity-graph.vercel.app/graph?username=abdulboyprogramming-arch&theme=github-dark&hide_border=true)
 
+---
+
+<div align="center">
+  <img src="https://github-analytics-incog.vercel.app/api?username=abdulboyprogramming-arch&theme=github_dark" alt="GitHub Analytics" />
+</div>
 </div>
 
 ---
@@ -245,16 +250,6 @@ Currently building **Tenvrix** — a technology company focused on AI-powered so
 
 </div>
 </details>
-
----
-
-## 🎯 2026 Goals
-
-- 🚀 Launch Tenvrix publicly
-- 🤖 Build production-ready AI applications
-- ☁️ Master cloud-native development
-- 📝 Publish technical content
-- 🌍 Contribute meaningfully to open source
 
 ---
 
