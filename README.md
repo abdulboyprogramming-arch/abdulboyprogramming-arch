@@ -96,6 +96,12 @@ Currently building **Tenvrix** — a technology company focused on AI-powered so
 
 ---
 
+[![committers.top badge](https://user-badge.committers.top/nigeria/abdulboyprogramming-arch.svg)](https://user-badge.committers.top/nigeria/abdulboyprogramming-arch)
+
+[![committers.top badge](https://user-badge.committers.top/nigeria_private/abdulboyprogramming-arch.svg)](https://user-badge.committers.top/nigeria_private/abdulboyprogramming-arch)
+
+---
+
 <!-- COLLAPSIBLE: Additional Developer Platforms -->
 <details>
 <summary>🌐 <b>More Developer Platforms</b> (Click to expand)</summary>
