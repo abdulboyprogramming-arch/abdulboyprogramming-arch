@@ -43,7 +43,7 @@
 
 ---
 
-## 🚀 About Me
+## About Me
 
 Software Engineering student with **3 years of development experience** — from first line of code to building production-ready systems. Passionate about creating intelligent, scalable software that solves real problems.
 
