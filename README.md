@@ -6,7 +6,7 @@
 
 <br/>
 
-<!-- ESSENTIAL GITHUB BADGES - Always Visible -->
+<!-- GITHUB BADGES - Always Visible -->
 <div align="center">
   <a href="https://github.com/abdulboyprogramming-arch">
     <img src="https://komarev.com/ghpvc/?username=abdulboyprogramming-arch&label=Profile+Views&style=flat-square&color=2563EB" alt="Profile Views"/>
